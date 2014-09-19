@@ -1,0 +1,95 @@
+header {
+  background-image: url(../images/header2.jpg);
+  background-position: center center;
+  color: white;
+  text-align: center;
+  background-attachment: scroll;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 615px;
+}
+.CTA{
+  margin-top: 190px;
+}
+.cara{
+  horizontal-align: center;
+}
+.carousel-inner{
+  height: 550px;
+}
+#tag-line{
+  text-align: center;
+}
+
+.big-ol-apply{
+  background-color: #15a4ff;
+  margin-top: 29px;
+  width: 226px;
+  height: 64px;
+  color: white;
+  font-size: 25px;
+}
+.circle{
+  background-color: #15a4ff;
+}
+
+.profiles{
+  width: 327px;
+  height: 327px;
+  font-size: 15px;
+  color: white;
+  background-color: #15a4ff;
+}
+mitch{
+  background-image: url(../images/mitch.jpg);
+}
+
+
+will{
+  background-image: url(images/will.png);
+}
+
+manas {
+  background-images: url(images/manas.png)
+}
+#tag-line {
+background-color:#15a4ff ;
+color: white;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #646464;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+h1 {
+  color: #60B2E6;
+}
