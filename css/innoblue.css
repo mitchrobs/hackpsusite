@@ -93,3 +93,6 @@ color: white;
 h1 {
   color: #60B2E6;
 }
+.navbar-default .navbar-nav>li>a {
+  color: rgb(118, 156, 255);
+}
